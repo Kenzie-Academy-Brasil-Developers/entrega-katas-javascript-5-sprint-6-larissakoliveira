@@ -157,24 +157,24 @@ testDistinctValues1()
 
 
 
-//8
-const str1 = "a + b + c - d"
-const obj1 = {a: 1, b: 7, c: 3, d: 14}
-const str2 = "a / b * c - d"
-const obj2 = {a: 10, b: 2, c: 0.5, d: -14}
+// //8
+// const str1 = "a + b + c - d"
+// const obj1 = {a: 1, b: 7, c: 3, d: 14}
+// const str2 = "a / b * c - d"
+// const obj2 = {a: 10, b: 2, c: 0.5, d: -14}
 
-function testEvaluateExpression1() {
-    let result = evaluateExpression(str1, obj1);
-    let expected = -3
-    console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
-}
+// function testEvaluateExpression1() {
+//     let result = evaluateExpression(str1, obj1);
+//     let expected = -3
+//     console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
+// }
 
-testEvaluateExpression1()
+// testEvaluateExpression1()
 
-function testEvaluateExpression1() {
-    let result = evaluateExpression(str2, obj2);
-    let expected = 1
-    console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
-}
+// function testEvaluateExpression1() {
+//     let result = evaluateExpression(str2, obj2);
+//     let expected = 1
+//     console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
+// }
 
-testEvaluateExpression2()
+// testEvaluateExpression2()

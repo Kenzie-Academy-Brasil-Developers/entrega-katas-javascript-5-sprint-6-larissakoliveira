@@ -100,24 +100,24 @@ const distinctValues = (stg) => {
 
 
 
-8
-const evaluateExpression = (str, obj) => {
-    let newArray = []
-    for(let i = 0; i < str.length; i++){
+// 8
+// const evaluateExpression = (str, obj) => {
+//     let newArray = []
+//     for(let i = 0; i < str.length; i++){
 
-    }
-    let cada = Object.keys(obj).forEach((item)=>{item})
+//     }
+//     let cada = Object.keys(obj).forEach((item)=>{item})
 
-    for(let i = 0; i < str.length; i++){
+//     for(let i = 0; i < str.length; i++){
         
-    }
+//     }
 
-    for (let [key, value] of Object.entries(obj)) {
-    let teste = key + value;
-    console.log(teste)
-}
-}
+//     for (let [key, value] of Object.entries(obj)) {
+//     let teste = key + value;
+//     console.log(teste)
+// }
+// }
 
-evaluateExpression("a + b + c - d", {a: 1, b: 7, c: 3, d: 14})
+// evaluateExpression("a + b + c - d", {a: 1, b: 7, c: 3, d: 14})
 
 
